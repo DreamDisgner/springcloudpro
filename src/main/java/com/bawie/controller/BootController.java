@@ -22,6 +22,8 @@ public class BootController {
         System.out.println("I am deal some problems finished!");
         System.out.println("i am bug bugfix I come agin");
 
+        System.out.println("wo zai zuo gai dong");
+
         return "hello";
     }
 
