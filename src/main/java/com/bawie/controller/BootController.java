@@ -9,6 +9,8 @@ public class BootController {
 
     @RequestMapping("/list")
     public  String hello(){
+
+        System.out.println("11111");
         return "hello";
     }
 
