@@ -15,6 +15,7 @@ public class BootController {
         System.out.println("333");
         System.out.println("444");
         System.out.println("555");
+        System.out.println("doing something bug i get a job");
         return "hello";
     }
 
