@@ -13,6 +13,7 @@ public class BootController {
         System.out.println("11111");
         System.out.println("222");
         System.out.println("333");
+        System.out.println("444");
 
         return "hello";
     }
