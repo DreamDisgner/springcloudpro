@@ -36,6 +36,7 @@ public class NettyClient {
         //绑定端口号
         ChannelFuture connect = clientBootstrap.connect(new InetSocketAddress("127.0.0.1", 8080));
         System.out.println("客户端已启动。。。");
+        System.out.println("我在做改动11111。");
         Channel channel = connect.getChannel();
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){
